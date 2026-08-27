@@ -17,7 +17,7 @@ Accurate weekly sales predictions can support inventory planning, staffing, budg
 
 The Tuned Decision Tree delivered the strongest holdout-period performance. Compared with Linear Regression, it reduced MAE by approximately **21.5%** and RMSE by approximately **17.4%**.
 
-![Model MAE comparison](assets/model_mae_comparison.png)
+![Model MAE comparison](model_mae_comparison.png)
 
 ## Business Insights
 
@@ -44,10 +44,9 @@ The chronological split is important because randomly shuffling time-based data 
 ```text
 .
 ├── walmart_weekly_sales_prediction.ipynb  # Complete analysis and modeling workflow
-├── assets/
-│   └── model_mae_comparison.png           # Model comparison used in this README
+├── model_mae_comparison.png               # Model comparison visualization
 ├── requirements.txt                       # Python dependencies
-└── README.md                           # Project summary
+└── README.md                              # Project summary
 ```
 
 ## Tools and Technologies
